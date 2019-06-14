@@ -1,6 +1,5 @@
 pipeline{
 	agent any
-	def res
 		stages{
 			stage('build-stage') {
 				steps {
